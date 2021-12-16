@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0abab5;
+    font-size: 1.8rem;
+    display: grid;
+    grid-template-columns: 0.8fr 2.2fr;
+}
+
+header{
+    grid-column: 1;
+    background-color: #1f003d; 
+    color: #E7F2FC;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top:20px;
+}
+
+header article{
+    box-sizing: border-box;
+}
+
+.primeiras-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 170px;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.primeiras-infos img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    transition: 1s;
+}
+
+.primeiras-infos h5, h3{
+    text-align: center;
+}
+
+.links-perfis{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 1.5rem;
+    margin: 25px 0px 20px 0px;
+    width: 95%;
+}
+
+.links-perfis a{
+    text-decoration: none;
+    color: #E7F2FC;
+    display: flex;
+    transition: 0.2s;
+}
+.links-perfis a:hover{
+   color: #AFB3A7;
+}
+
+.links-perfis a i{
+    align-self: center;
+    justify-self: center;
+    margin-left: 5px;
+}
+
+header hr{
+    color: #E7F2FC;
+    height:2px;
+    border-width:0;
+    background-color: #E7F2FC;
+    margin: 0 20px;
+}
+
+.infos-pessoais{
+    font-size: 1.2rem;
+    margin: 0 22px 10px;
+}
+
+header h4{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+header h4 i{
+    margin-right: 9px;
+}
+
+.infos-pessoais p{
+    margin: 2.5px 0px;
+}
+
+.infos-pessoais-title{
+    font-weight: bold;
+    color: #e7f8fc;
+}
+
+.infos-pessoais-conteudo{
+    float: right;
+
+}
+
+.skills{
+    font-size: 1.4rem;
+    margin: 0 15px 10px;
+    text-align: center;
+}
+.skills p{
+    margin: 2.5px 0px;
+    transition: 0.5s;
+}
+
+main{
+    grid-column: 2/3;
+    padding-top:20px;
+    margin: 15px 55px;
+}
+
+main hr{
+    color: black;
+    height:2px;
+    border-width:0;
+    background-color: rgba(0, 0, 0, 0.77);
+}
+
+main section{
+    margin: 25px 0px;
+}
+
+main section h3{
+    text-align: start;
+    font-size: 1.7rem;
+}
+
+main section h3 i{
+    margin-right: 9px;
+}
+
+main section h3{
+    text-align: start;
+    font-size: 1.7rem;
+}
+
+main section h5{
+    text-align: start;
+    font-size: 1.4rem;
+}
+
+.biografia p{
+    font-size: 1.3rem;
+}
+
+.exp-profissionais p {
+    font-size: 1.3rem;
+}
+
+.exp-profissionais h5 {
+    margin: 15px 0px 5px 0px;
+}
+
+.exp-profissionais hr {
+    color: black;
+    height:2px;
+    border-width:0;
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 85%;
+    margin: 25px
+}
+
+.empresa{
+    padding-left: 37px;
+}
+
+.empresa-descricao{
+    margin: 0px 0px 10px 0px;
+}
+
+.cargo-descricao{
+    font-style: italic;
+    margin: 10px 0px;
+}
+
+.formacoes{
+    padding-left: 37px;
+}
+
+.formacoes ul li ul{
+    padding-left: 25px;
+    
+}
+.formacoes ul li ul p{
+    font-size: 1.3rem;
+}
+
+.hard-skills{
+    padding-left: 37px;
+}
+
+.hard-skills ul li ul{
+    padding-left: 25px;
+}
+.hard-skills ul li ul p{
+    font-size: 1.3rem;
+}
+
